@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin-top: 5%;
+    color: royalblue;
+    text-decoration: underline;
+}
+#main {
+    width: 50%;
+    border: 2px solid royalblue;
+    margin-top: 8%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 10px;
+}
+#a {
+    text-align: start;
+    /* padding-left: 18%; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#a li {
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#userInp {
+    width: 60%;
+    border: 2px solid skyblue;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+#userInp::placeholder {
+    color: rgba(45, 45, 236, 0.901);
+}
+#submit , #deleteAll {
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: rgba(45, 45, 236, 0.901);
+}
